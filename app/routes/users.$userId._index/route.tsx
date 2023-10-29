@@ -19,7 +19,7 @@ export const loader = async ({
   request: { signal },
 }: Parameters<LoaderFunction>[number]) => {
   //console.log(params)
-  if (!userId) throw new Error('No iser ID provided')
+  if (!userId) throw new Error('No user ID provided')
   return await JsonPlaseholderAPI.getUser({ signal, userId: Number(userId) })
 }
 

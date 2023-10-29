@@ -23,7 +23,7 @@ const RootLayout = () => {
           <AppBar position="static">
             <Toolbar>
               <Typography variant="h6" component="div" sx={HEADER_SX}>
-                React-Router + Material-UI
+                React-Router + Material-UI + typescript; Remix
               </Typography>
               <Button component={Link} to="/" color="inherit">
                 Photos

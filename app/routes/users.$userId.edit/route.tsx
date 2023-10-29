@@ -27,7 +27,6 @@ export const action = async ({ request, params }: Parameters<LoaderFunction>[num
 export default function UserEditPage() {
   const user = useLoaderData<typeof loader>()
 
-  //console.log('user', user)
   return (
     <>
       <Typography variant="h5" gutterBottom>

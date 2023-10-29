@@ -5,7 +5,7 @@ export const action = async ({
   params: { userId },
   request: { signal },
 }: Parameters<LoaderFunction>[number]) => {
-  if (!userId) throw new Error('No iser ID provided')
+  if (!userId) throw new Error('No user ID provided')
 
   await JsonPlaseholderAPI.deleteUser({ signal, userId: Number(userId) })
 
